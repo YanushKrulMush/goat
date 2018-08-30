@@ -1,0 +1,20 @@
+1535628241691	geckodriver	INFO	geckodriver 0.21.0
+1535628241695	geckodriver	INFO	Listening on 127.0.0.1:37391
+1535628242697	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7UUuq0H9PbLF"
+1535628244595	Marionette	INFO	Listening on port 42105
+1535628244624	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///modules/SavantShieldStudy.jsm, line 171: TypeError: this.addonListener is undefined
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1535628772725	geckodriver	INFO	geckodriver 0.21.0
+1535628772728	geckodriver	INFO	Listening on 127.0.0.1:51211
+1535628773731	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LSvH61UTWcrj"
+1535628775151	Marionette	INFO	Listening on port 43879
+1535628775244	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///modules/SavantShieldStudy.jsm, line 171: TypeError: this.addonListener is undefined
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
