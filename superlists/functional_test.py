@@ -23,13 +23,16 @@ class NewVisitorTest(unittest.TestCase):
         self.assertEqual(inputbox.get_attribute('placeholder'), 'Enter a To-Do item')
 
         inputbox.send_keys('task 1')
+        inputbox.send_keys(Keys.ENTER)
 
+        inputbox = self.browser.find_element_by_id('id_new_item')
+        inputbox.send_keys('task 2')
         inputbox.send_keys(Keys.ENTER)
 
         table = self.browser.find_element_by_id('id_list_table')
         rows = table.find_elements_by_tag_name('tr')
-        self.assertTrue(any(row.text == '1: task 1' for row in rows),
-                        'New item did not appear in table')
+        self.assertIn('1: task 1', [row.text for row in rows])
+        self.assertIn('2: task 2', [row.text for row in rows])
 
 
         self.fail('Finish the test!')
