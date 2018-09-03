@@ -1,9 +1,18 @@
+from django.test import LiveServerTestCase
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from contextlib import contextmanager
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support.expected_conditions import staleness_of
 import unittest
 
 
-class NewVisitorTest(unittest.TestCase):
+class NewVisitorTest(LiveServerTestCase):
+
+    @contextmanager
+    def wait_for_page_load(self, timeout=30):
+        old_page = self.browser.find_element_by_tag_name('html')
+        yield WebDriverWait(self.browser, timeout).until(staleness_of(old_page))
 
     def setUp(self):
         self.browser = webdriver.Firefox()
@@ -18,7 +27,7 @@ class NewVisitorTest(unittest.TestCase):
         self.assertIn(row_text, [row.text for row in rows])
 
     def test_can_start_a_list_and_retrieve_it_later(self):
-        self.browser.get('http://localhost:8000')
+        self.browser.get(self.live_server_url)
 
         self.assertIn('To-Do', self.browser.title)
         header_text = self.browser.find_element_by_tag_name('h1').text
@@ -29,17 +38,16 @@ class NewVisitorTest(unittest.TestCase):
 
         inputbox.send_keys('task 1')
         inputbox.send_keys(Keys.ENTER)
-        self.check_for_row_in_table('1: task 1')
+        with self.wait_for_page_load(timeout=10):
+            self.check_for_row_in_table('1: task 1')
 
         inputbox = self.browser.find_element_by_id('id_new_item')
         inputbox.send_keys('task 2')
         inputbox.send_keys(Keys.ENTER)
-
-        self.check_for_row_in_table('1: task 1')
-        self.check_for_row_in_table('2: task 2')
+        with self.wait_for_page_load(timeout=10):
+            self.check_for_row_in_table('1: task 1')
+            self.check_for_row_in_table('2: task 2')
 
         self.fail('Finish the test!')
 
 
-if __name__ == '__main__':
-    unittest.main()
