@@ -4,7 +4,6 @@ from selenium.webdriver.common.keys import Keys
 from contextlib import contextmanager
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support.expected_conditions import staleness_of
-import unittest
 
 
 class NewVisitorTest(LiveServerTestCase):
@@ -38,16 +37,31 @@ class NewVisitorTest(LiveServerTestCase):
 
         inputbox.send_keys('task 1')
         inputbox.send_keys(Keys.ENTER)
+        user1_list_url = self.browser.current_url
+        self.assertRegex(user1_list_url, '/lists/.+')
         with self.wait_for_page_load(timeout=10):
             self.check_for_row_in_table('1: task 1')
 
-        inputbox = self.browser.find_element_by_id('id_new_item')
+        inputbox = self.browser.find_element_by_id('id_new_item')  # two list items
         inputbox.send_keys('task 2')
         inputbox.send_keys(Keys.ENTER)
         with self.wait_for_page_load(timeout=10):
             self.check_for_row_in_table('1: task 1')
             self.check_for_row_in_table('2: task 2')
 
+        # Second user
+        self.browser.quit()
+        self.browser = webdriver.Firefox()
+
+        inputbox.send_keys('user 2 task 1')
+        inputbox.send_keys(Keys.ENTER)
+
+        user2_list_url = self.browser.current_url
+        self.assertRegex(user2_list_url, '/lists/.+')
+        self.assertNotEquals(user1_list_url, user2_list_url)
+
+        page_text = self.browser.find_element_by_tag_name('body').text
+        self.assertNotIn('task 1', page_text)
+        self.assertIn('user 2 task 1', page_text)
+
         self.fail('Finish the test!')
-
-
