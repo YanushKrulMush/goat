@@ -37,9 +37,9 @@ class NewVisitorTest(LiveServerTestCase):
 
         inputbox.send_keys('task 1')
         inputbox.send_keys(Keys.ENTER)
-        user1_list_url = self.browser.current_url
-        self.assertRegex(user1_list_url, '/lists/.+')
         with self.wait_for_page_load(timeout=10):
+            user1_list_url = self.browser.current_url
+            self.assertRegex(user1_list_url, '/lists/.+')
             self.check_for_row_in_table('1: task 1')
 
         inputbox = self.browser.find_element_by_id('id_new_item')  # two list items
@@ -53,12 +53,19 @@ class NewVisitorTest(LiveServerTestCase):
         self.browser.quit()
         self.browser = webdriver.Firefox()
 
+        self.browser.get(self.live_server_url)
+        page_text = self.browser.find_element_by_tag_name('body').text
+        self.assertNotIn('task 1', page_text)
+        self.assertNotIn('task 2', page_text)
+
+        inputbox = self.browser.find_element_by_id('id_new_item')
         inputbox.send_keys('user 2 task 1')
         inputbox.send_keys(Keys.ENTER)
 
-        user2_list_url = self.browser.current_url
-        self.assertRegex(user2_list_url, '/lists/.+')
-        self.assertNotEquals(user1_list_url, user2_list_url)
+        with self.wait_for_page_load(timeout=10):
+            user2_list_url = self.browser.current_url
+            self.assertRegex(user2_list_url, '/lists/.+')
+            self.assertNotEquals(user1_list_url, user2_list_url)
 
         page_text = self.browser.find_element_by_tag_name('body').text
         self.assertNotIn('task 1', page_text)
