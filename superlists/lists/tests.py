@@ -108,7 +108,9 @@ class NewItemTest(TestCase):
         List.objects.create()
         correct_list = List.objects.create()
 
-        self.client.post('/lists/{}/add_item'.format(correct_list.id), data={'item_text': 'A new item in existing list'})
+        self.client.post('/lists/{}/add_item'.format(correct_list.id),
+                         data={'item_text': 'A new item in existing list'}
+                         )
 
         self.assertEqual(Item.objects.count(), 1)
         new_item = Item.objects.first()
@@ -119,8 +121,9 @@ class NewItemTest(TestCase):
         List.objects.create()
         correct_list = List.objects.create()
 
-        response = self.client.post('/lists/{}/add_item'.format(correct_list.id), data={'item_text': 'A new item in existing list'})
-
+        response = self.client.post('/lists/{}/add_item'.format(correct_list.id),
+                                    data={'item_text': 'A new item in existing list'}
+                                    )
         self.assertRedirects(response, '/lists/{}/'.format(correct_list.id))
 
 

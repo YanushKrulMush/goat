@@ -757,3 +757,147 @@ JavaScript error: resource://gre/modules/ProfileAge.jsm, line 174: Error: Unable
 1536140498981	Marionette	WARN	TLS certificate errors will be ignored for this session
 [Parent 26448, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536141545617	geckodriver	INFO	geckodriver 0.21.0
+1536141545621	geckodriver	INFO	Listening on 127.0.0.1:38871
+1536141546620	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QeyYMwDVPTfe"
+1536141548355	Marionette	INFO	Listening on port 40289
+1536141548475	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 27552, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536141550483	geckodriver	INFO	geckodriver 0.21.0
+1536141550486	geckodriver	INFO	Listening on 127.0.0.1:43941
+1536141551488	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QLdTrNsI0pfi"
+1536141553081	Marionette	INFO	Listening on port 42089
+1536141553101	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 28329, Gecko_IOThread] WARNING: pipe error (61): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536146995913	geckodriver	INFO	geckodriver 0.21.0
+1536146995916	geckodriver	INFO	Listening on 127.0.0.1:56987
+1536146996918	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NzboLCVARUsj"
+1536146998824	Marionette	INFO	Listening on port 40925
+1536146998863	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///modules/SavantShieldStudy.jsm, line 171: TypeError: this.addonListener is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 321: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 321: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 174: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_next
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 174: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_next
+1536146999910	geckodriver	INFO	geckodriver 0.21.0
+1536146999913	geckodriver	INFO	Listening on 127.0.0.1:42715
+1536147000915	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.h4OnUiYF8MOH"
+1536147002567	Marionette	INFO	Listening on port 35485
+1536147002639	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 30181, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536147018029	geckodriver	INFO	geckodriver 0.21.0
+1536147018032	geckodriver	INFO	Listening on 127.0.0.1:44139
+1536147019034	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.51XvhYRdDf3m"
+1536147020783	Marionette	INFO	Listening on port 35983
+1536147020852	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536147021818	geckodriver	INFO	geckodriver 0.21.0
+1536147021821	geckodriver	INFO	Listening on 127.0.0.1:50173
+1536147022822	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jzDgnBmbhAsX"
+1536147024721	Marionette	INFO	Listening on port 34197
+1536147024747	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 31718, Gecko_IOThread] WARNING: pipe error (55): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536147070838	geckodriver	INFO	geckodriver 0.21.0
+1536147070842	geckodriver	INFO	Listening on 127.0.0.1:60293
+1536147071844	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hLeNvuABbmEh"
+1536147073527	Marionette	INFO	Listening on port 35337
+1536147073569	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///modules/SavantShieldStudy.jsm, line 171: TypeError: this.addonListener is undefined
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536147074479	geckodriver	INFO	geckodriver 0.21.0
+1536147074482	geckodriver	INFO	Listening on 127.0.0.1:56093
+1536147075484	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9B7skIt9VeJr"
+1536147077247	Marionette	INFO	Listening on port 34691
+1536147077355	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 33297, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536147292481	geckodriver	INFO	geckodriver 0.21.0
+1536147292484	geckodriver	INFO	Listening on 127.0.0.1:33443
+1536147293485	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HUU4gRJsBDv5"
+1536147295124	Marionette	INFO	Listening on port 36091
+1536147295203	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///modules/SavantShieldStudy.jsm, line 171: TypeError: this.addonListener is undefined
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536147296399	geckodriver	INFO	geckodriver 0.21.0
+1536147296402	geckodriver	INFO	Listening on 127.0.0.1:46191
+1536147297403	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2QMhcIvOVm3W"
+1536147299135	Marionette	INFO	Listening on port 37445
+1536147299221	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 34845, Gecko_IOThread] WARNING: pipe error (55): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536147415978	geckodriver	INFO	geckodriver 0.21.0
+1536147415981	geckodriver	INFO	Listening on 127.0.0.1:36167
+1536147416983	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hROL3vr4SU7r"
+1536147418681	Marionette	INFO	Listening on port 45097
+1536147418712	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 35648, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536147420783	geckodriver	INFO	geckodriver 0.21.0
+1536147420786	geckodriver	INFO	Listening on 127.0.0.1:60773
+1536147421787	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yFblC5aiugLR"
+1536147423613	Marionette	INFO	Listening on port 45467
+1536147423748	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536147425246	geckodriver	INFO	geckodriver 0.21.0
+1536147425249	geckodriver	INFO	Listening on 127.0.0.1:36287
+1536147426251	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ouQJFCVAfcoz"
+1536147427960	Marionette	INFO	Listening on port 46287
+1536147427965	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536147455737	geckodriver	INFO	geckodriver 0.21.0
+1536147455742	geckodriver	INFO	Listening on 127.0.0.1:49107
+1536147456742	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oc7HkQiOiXaw"
+1536147458493	Marionette	INFO	Listening on port 36213
+1536147458558	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 37942, Gecko_IOThread] WARNING: pipe error (61): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536147460713	geckodriver	INFO	geckodriver 0.21.0
+1536147460716	geckodriver	INFO	Listening on 127.0.0.1:59983
+1536147461717	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DqThrSaRn3Sq"
+1536147463492	Marionette	INFO	Listening on port 33741
+1536147463534	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 38715, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536147465248	geckodriver	INFO	geckodriver 0.21.0
+1536147465251	geckodriver	INFO	Listening on 127.0.0.1:43871
+1536147466253	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ARuZuPHmsF0T"
+1536147468131	Marionette	INFO	Listening on port 40957
+1536147468264	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536147498024	geckodriver	INFO	geckodriver 0.21.0
+1536147498028	geckodriver	INFO	Listening on 127.0.0.1:48379
+1536147499029	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pVvbggOsl0Td"
+1536147500754	Marionette	INFO	Listening on port 45463
+1536147500865	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 40218, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536147502850	geckodriver	INFO	geckodriver 0.21.0
+1536147502853	geckodriver	INFO	Listening on 127.0.0.1:36347
+1536147503854	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IzOowG7B65nD"
+1536147505585	Marionette	INFO	Listening on port 42483
+1536147505672	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 40961, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536147507292	geckodriver	INFO	geckodriver 0.21.0
+1536147507295	geckodriver	INFO	Listening on 127.0.0.1:51675
+1536147508297	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jO5HdhQYBCig"
+1536147510126	Marionette	INFO	Listening on port 34153
+1536147510242	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 41749, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
