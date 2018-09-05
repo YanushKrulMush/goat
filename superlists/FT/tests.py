@@ -55,11 +55,11 @@ class NewVisitorTest(LiveServerTestCase):
 
         self.browser.get(self.live_server_url)
         page_text = self.browser.find_element_by_tag_name('body').text
-        self.assertNotIn('task 1', page_text)
-        self.assertNotIn('task 2', page_text)
+        self.assertNotIn('task 3', page_text)
+        self.assertNotIn('task 4', page_text)
 
         inputbox = self.browser.find_element_by_id('id_new_item')
-        inputbox.send_keys('user 2 task 1')
+        inputbox.send_keys('user 2 task 3')
         inputbox.send_keys(Keys.ENTER)
 
         with self.wait_for_page_load(timeout=10):
@@ -69,6 +69,6 @@ class NewVisitorTest(LiveServerTestCase):
 
         page_text = self.browser.find_element_by_tag_name('body').text
         self.assertNotIn('task 1', page_text)
-        self.assertIn('user 2 task 1', page_text)
+        self.assertIn('user 2 task 3', page_text)
 
         self.fail('Finish the test!')
