@@ -1560,3 +1560,22 @@ JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifie
 1536236214529	Marionette	WARN	TLS certificate errors will be ignored for this session
 [Parent 125226, Gecko_IOThread] WARNING: pipe error (61): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536236748348	geckodriver	INFO	geckodriver 0.21.0
+1536236748351	geckodriver	INFO	Listening on 127.0.0.1:46377
+1536236749354	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.moMm0RWiQv0L"
+1536236750870	Marionette	INFO	Listening on port 44285
+1536236750984	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536236753662	geckodriver	INFO	geckodriver 0.21.0
+1536236753665	geckodriver	INFO	Listening on 127.0.0.1:55395
+1536236754667	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZptUtZhEpprH"
+1536236756053	Marionette	INFO	Listening on port 40073
+1536236756088	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1536236757743	geckodriver	INFO	geckodriver 0.21.0
+1536236757746	geckodriver	INFO	Listening on 127.0.0.1:60763
+1536236758747	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VocOSiisdBrZ"
+1536236760104	Marionette	INFO	Listening on port 43977
+1536236760196	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 127576, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
