@@ -20,6 +20,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
         for arg in sys.argv:
             if 'liveserver' in arg:
                 cls.server_url = 'http://' + arg.split('=')[1]
+                cls.live_server_url = ''
                 return
         super().setUpClass()
         cls.server_url = cls.live_server_url
@@ -102,4 +103,4 @@ class NewVisitorTest(StaticLiveServerTestCase):
         self.assertNotIn('task 1', page_text)
         self.assertIn('user 2 task 3', page_text)
 
-        self.fail('Finish the test!')
+        # self.fail('Finish the test!')
