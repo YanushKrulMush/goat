@@ -2,7 +2,7 @@ import random
 from fabric.contrib.files import append, exists
 from fabric.api import cd, env, local, run
 
-REPO_URL = 'https://github.com/hjwp/book-example.git'
+REPO_URL = 'https://github.com/YanushKrulMush/goat.git'
 
 
 def deploy():
@@ -26,9 +26,9 @@ def _get_latest_source():
 
 
 def _update_virtualenv():
-    if not exists('virtualenv/bin/pip'):
-        run(f'python3.6 -m venv virtualenv')
-    run('./virtualenv/bin/pip install -r requirements.txt')
+    if not exists('virtualenv/bin/pip3'):
+        run(f'python3 -m venv virtualenv')
+    run('./virtualenv/bin/pip3 install -r requirements.txt')
 
 
 def _create_or_update_dotenv():
@@ -43,9 +43,9 @@ def _create_or_update_dotenv():
 
 
 def _update_static_files():
-    run('./virtualenv/bin/python manage.py collectstatic --noinput')
+    run('./virtualenv/bin/python3 manage.py collectstatic --noinput')
 
 
 def _update_database():
-    run('./virtualenv/bin/python manage.py migrate --noinput')
+    run('./virtualenv/bin/python3 manage.py migrate --noinput')
 
