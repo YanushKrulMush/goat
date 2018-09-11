@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="105bac96-df05-4f1e-94fc-db0a0574636e" name="Default Changelist" comment="New form for list items">
+    <list default="true" id="105bac96-df05-4f1e-94fc-db0a0574636e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lists/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/lists/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lists/tests/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lists/tests/test_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lists/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/lists/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lists/tests/test_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/lists/tests/test_forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lists/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lists/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lists/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lists/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,11 +50,11 @@
           <entry key="conf" value="2" />
           <entry key="css" value="3" />
           <entry key="gitignore" value="6" />
-          <entry key="html" value="14" />
+          <entry key="html" value="16" />
           <entry key="js" value="1" />
           <entry key="log" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="77" />
+          <entry key="py" value="97" />
           <entry key="service" value="2" />
           <entry key="txt" value="5" />
         </counts>
@@ -61,11 +62,11 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="HTML" value="14" />
+          <entry key="HTML" value="16" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Python" value="77" />
+          <entry key="Python" value="97" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -74,18 +75,18 @@
           <entry key="conf" value="6" />
           <entry key="css" value="19" />
           <entry key="gitignore" value="21" />
-          <entry key="html" value="978" />
-          <entry key="py" value="11046" />
+          <entry key="html" value="1007" />
+          <entry key="py" value="12254" />
           <entry key="service" value="24" />
-          <entry key="txt" value="97" />
+          <entry key="txt" value="145" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="19" />
-          <entry key="HTML" value="978" />
-          <entry key="PLAIN_TEXT" value="148" />
-          <entry key="Python" value="11056" />
+          <entry key="HTML" value="1007" />
+          <entry key="PLAIN_TEXT" value="196" />
+          <entry key="Python" value="12264" />
         </counts>
       </usages-collector>
     </session>
@@ -98,38 +99,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lists/tests/test_forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="360">
+              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
-                <marker date="1536658828670" expanded="true" signature="115:116" ph="..." />
-                <marker date="1536658828670" expanded="true" signature="115:121" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lists/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-                <marker date="1536658857729" expanded="true" signature="151:156" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lists/tests/test_views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="64" lean-forward="true" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-                <marker date="1536659432123" expanded="true" signature="1590:1593" ph="..." />
+                <marker date="1536666301274" expanded="true" signature="151:152" ph="..." />
+                <marker date="1536666301274" expanded="true" signature="151:157" ph="..." />
               </folding>
             </state>
           </provider>
@@ -138,20 +113,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lists/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+            <state relative-caret-position="405">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
-                <element signature="e#0#50#0" expanded="true" />
+                <element signature="e#0#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lists/templates/base.html">
+        <entry file="file://$PROJECT_DIR$/lists/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lists/forms.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+                <marker date="1536666259258" expanded="true" signature="152:157" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,6 +157,14 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>browser.find_element_by_id('id_new_item')</find>
+      <find>item_text</find>
+      <find>id_new_item</find>
+      <find>You can't</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -200,20 +199,20 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/lists/tests.py" />
         <option value="$PROJECT_DIR$/FT/tests.py" />
-        <option value="$PROJECT_DIR$/FT/test_simple_list_creation.py" />
-        <option value="$PROJECT_DIR$/FT/base.py" />
-        <option value="$PROJECT_DIR$/FT/test_layout_and_styling.py" />
-        <option value="$PROJECT_DIR$/FT/test_list_item_validation.py" />
-        <option value="$PROJECT_DIR$/lists/urls.py" />
         <option value="$PROJECT_DIR$/lists/templates/home.html" />
         <option value="$PROJECT_DIR$/lists/templates/list.html" />
         <option value="$PROJECT_DIR$/lists/models.py" />
         <option value="$PROJECT_DIR$/lists/tests/test_models.py" />
-        <option value="$PROJECT_DIR$/lists/tests/test_forms.py" />
-        <option value="$PROJECT_DIR$/lists/forms.py" />
-        <option value="$PROJECT_DIR$/lists/tests/test_views.py" />
-        <option value="$PROJECT_DIR$/lists/views.py" />
+        <option value="$PROJECT_DIR$/FT/base.py" />
+        <option value="$PROJECT_DIR$/FT/test_layout_and_styling.py" />
+        <option value="$PROJECT_DIR$/FT/test_simple_list_creation.py" />
         <option value="$PROJECT_DIR$/lists/templates/base.html" />
+        <option value="$PROJECT_DIR$/lists/tests/test_views.py" />
+        <option value="$PROJECT_DIR$/FT/test_list_item_validation.py" />
+        <option value="$PROJECT_DIR$/lists/forms.py" />
+        <option value="$PROJECT_DIR$/lists/tests/test_forms.py" />
+        <option value="$PROJECT_DIR$/lists/views.py" />
+        <option value="$PROJECT_DIR$/lists/urls.py" />
       </list>
     </option>
   </component>
@@ -322,7 +321,21 @@
       <option name="project" value="LOCAL" />
       <updated>1536659053507</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="use new form in home_page">
+      <created>1536660754934</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1536660754934</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Use form in all views">
+      <created>1536664581038</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1536664581038</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -336,6 +349,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1747" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" sideWeight="0.50054055" side_tool="true" weight="0.14333148" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945945" visible="true" weight="0.14333148" />
@@ -360,27 +374,27 @@
       <window_info active="true" anchor="right" x="2961" y="134" width="614" height="893" id="Terminal" order="5" sideWeight="0.8358474" visible="true" weight="0.32484782" />
     </layout>
     <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.29991126" />
+      <window_info id="Favorites" order="0" sideWeight="0.50054055" side_tool="true" weight="0.14333148" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49945945" visible="true" weight="0.14333148" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32972974" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Python Console" order="5" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="SciView" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32972974" />
+      <window_info anchor="bottom" id="Python Console" order="3" weight="0.32972974" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.16415262" side_tool="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32972974" />
+      <window_info anchor="right" id="SciView" order="0" weight="0.32982844" />
+      <window_info anchor="right" id="Database" order="1" weight="0.32961375" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info active="true" anchor="right" x="2961" y="134" width="614" height="893" id="Terminal" order="5" sideWeight="0.8358474" visible="true" weight="0.32484782" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,7 +445,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New form for list items" />
-    <option name="LAST_COMMIT_MESSAGE" value="New form for list items" />
+    <MESSAGE value="use new form in home_page" />
+    <MESSAGE value="Use form in all views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use form in all views" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/geckodriver.log">
@@ -674,16 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FT/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lists/tests/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -703,8 +709,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FT/test_layout_and_styling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="360">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -713,8 +720,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FT/test_simple_list_creation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+        <state relative-caret-position="420">
+          <caret line="28" column="70" lean-forward="true" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -742,74 +749,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lists/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="79" lean-forward="true" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FT/test_list_item_validation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#1#33#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="555">
+          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lists/tests/test_forms.py">
+    <entry file="file://$PROJECT_DIR$/FT/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="60">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <marker date="1536658828670" expanded="true" signature="115:116" ph="..." />
-            <marker date="1536658828670" expanded="true" signature="115:121" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lists/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1536658857729" expanded="true" signature="151:156" ph="..." />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lists/tests/test_views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="64" lean-forward="true" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+        <state relative-caret-position="1548">
+          <caret line="122" column="65" lean-forward="true" selection-start-line="122" selection-start-column="65" selection-end-line="122" selection-end-column="65" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <marker date="1536659432123" expanded="true" signature="1590:1593" ph="..." />
+            <marker date="1536662803588" expanded="true" signature="1511:1652" ph="..." />
+            <marker date="1536662803588" expanded="true" signature="1854:1857" ph="..." />
+            <marker date="1536662803588" expanded="true" signature="4021:4173" ph="..." />
+            <marker date="1536662803588" expanded="true" signature="4733:4848" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/tests/test_forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <marker date="1536666301274" expanded="true" signature="151:152" ph="..." />
+            <marker date="1536666301274" expanded="true" signature="151:157" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FT/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <marker date="1536666259258" expanded="true" signature="152:157" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lists/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lists/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lists/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
         </state>
       </provider>
     </entry>
