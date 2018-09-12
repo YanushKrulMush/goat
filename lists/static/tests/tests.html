@@ -27,6 +27,11 @@ QUnit.test("Errors should be hidden on keypress", function (assert) {
     $('input[name="text"]').trigger('keypress');
     assert.equal($('.has-error').is(':visible'), false);
 });
+QUnit.test("Errors should be hidden on mouse click", function (assert) {
+    window.Superlists.initialize();
+    $('input[name="text"]').trigger('click');
+    assert.equal($('.has-error').is(':visible'), false);
+});
 QUnit.test("Errors aren't hiddne if there is no keypress", function (assert) {
     window.Superlists.initialize();
     assert.equal($('.has-error').is(':visible'), true);
