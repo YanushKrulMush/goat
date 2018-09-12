@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="105bac96-df05-4f1e-94fc-db0a0574636e" name="Default Changelist" comment="">
+    <list default="true" id="105bac96-df05-4f1e-94fc-db0a0574636e" name="Default Changelist" comment="Adjusted base.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FT/test_list_item_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/FT/test_list_item_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lists/static/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/lists/static/list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lists/static/tests/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/lists/static/tests/tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lists/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/lists/templates/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,25 +50,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="conf" value="2" />
-          <entry key="css" value="3" />
+          <entry key="css" value="5" />
           <entry key="gitignore" value="6" />
-          <entry key="html" value="16" />
-          <entry key="js" value="1" />
+          <entry key="html" value="18" />
+          <entry key="js" value="4" />
           <entry key="log" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="107" />
+          <entry key="py" value="108" />
           <entry key="service" value="2" />
           <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="3" />
-          <entry key="HTML" value="16" />
-          <entry key="JavaScript" value="1" />
+          <entry key="CSS" value="5" />
+          <entry key="HTML" value="18" />
+          <entry key="JavaScript" value="4" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Python" value="107" />
+          <entry key="Python" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -75,17 +77,19 @@
           <entry key="conf" value="6" />
           <entry key="css" value="19" />
           <entry key="gitignore" value="21" />
-          <entry key="html" value="1007" />
+          <entry key="html" value="1525" />
+          <entry key="js" value="205" />
           <entry key="py" value="14279" />
           <entry key="service" value="24" />
-          <entry key="txt" value="286" />
+          <entry key="txt" value="306" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="19" />
-          <entry key="HTML" value="1007" />
-          <entry key="PLAIN_TEXT" value="337" />
+          <entry key="HTML" value="1525" />
+          <entry key="JavaScript" value="205" />
+          <entry key="PLAIN_TEXT" value="357" />
           <entry key="Python" value="14289" />
         </counts>
       </usages-collector>
@@ -97,26 +101,28 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FT/base.py">
+        <entry file="file://$PROJECT_DIR$/lists/static/tests/tests.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="360">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FT/test_list_item_validation.py">
+        <entry file="file://$PROJECT_DIR$/lists/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="81" column="71" selection-start-line="81" selection-start-column="71" selection-end-line="81" selection-end-column="71" />
-              <folding>
-                <marker date="1536760431215" expanded="true" signature="158:235" ph="..." />
-                <marker date="1536760431215" expanded="true" signature="2638:2647" ph="..." />
-              </folding>
+            <state relative-caret-position="690">
+              <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lists/static/list.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -126,9 +132,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -139,6 +146,8 @@
       <find>id_new_item</find>
       <find>You can't</find>
       <find>self.browser.find_element_by_css_selector</find>
+      <find>initi</find>
+      <find>init</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -179,7 +188,6 @@
         <option value="$PROJECT_DIR$/FT/base.py" />
         <option value="$PROJECT_DIR$/FT/test_layout_and_styling.py" />
         <option value="$PROJECT_DIR$/FT/test_simple_list_creation.py" />
-        <option value="$PROJECT_DIR$/lists/templates/base.html" />
         <option value="$PROJECT_DIR$/lists/urls.py" />
         <option value="$PROJECT_DIR$/lists/models.py" />
         <option value="$PROJECT_DIR$/lists/tests/test_models.py" />
@@ -188,6 +196,12 @@
         <option value="$PROJECT_DIR$/lists/views.py" />
         <option value="$PROJECT_DIR$/lists/tests/test_views.py" />
         <option value="$PROJECT_DIR$/FT/test_list_item_validation.py" />
+        <option value="$PROJECT_DIR$/lists/static/tests/qunit-2.6.2.js" />
+        <option value="$PROJECT_DIR$/lists/static/tests/qunit-2.6.2.css" />
+        <option value="$PROJECT_DIR$/lists/static/tests/jquery-3.3.1.js" />
+        <option value="$PROJECT_DIR$/lists/static/list.js" />
+        <option value="$PROJECT_DIR$/lists/static/tests/tests.html" />
+        <option value="$PROJECT_DIR$/lists/templates/base.html" />
       </list>
     </option>
   </component>
@@ -233,13 +247,13 @@
               <item name="goat" type="b2602c69:ProjectViewProjectNode" />
               <item name="goat" type="462c0819:PsiDirectoryNode" />
               <item name="lists" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="goat" type="b2602c69:ProjectViewProjectNode" />
               <item name="goat" type="462c0819:PsiDirectoryNode" />
               <item name="lists" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -259,11 +273,11 @@
       <recent name="$PROJECT_DIR$/superlists/lists/static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lists/static" />
       <recent name="$PROJECT_DIR$/superlists/lists/static" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/superlists/lists/templates/lists" />
       <recent name="$PROJECT_DIR$/superlists/lists" />
-      <recent name="$PROJECT_DIR$/superlists" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -475,19 +489,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Duplicate items raises proper errors" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/geckodriver.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-636">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/superlists/lists/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/superlists/lists/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/superlists/lists/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -753,13 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lists/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="79" lean-forward="true" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FT/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -851,14 +845,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lists/static/tests/qunit-2.6.2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="843">
+          <caret line="5259" selection-start-line="5259" selection-end-line="5259" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/static/tests/qunit-2.6.2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="843">
+          <caret line="436" selection-start-line="436" selection-end-line="436" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/static/jquery-3.3.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1039">
+          <caret line="10364" selection-start-line="10364" selection-end-line="10364" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FT/test_list_item_validation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="81" column="71" selection-start-line="81" selection-start-column="71" selection-end-line="81" selection-end-column="71" />
+        <state relative-caret-position="733">
+          <caret line="72" column="56" lean-forward="true" selection-start-line="72" selection-start-column="56" selection-end-line="72" selection-end-column="56" />
           <folding>
             <marker date="1536760431215" expanded="true" signature="158:235" ph="..." />
             <marker date="1536760431215" expanded="true" signature="2638:2647" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/static/base.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/static/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/static/tests/tests.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lists/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
         </state>
       </provider>
     </entry>
