@@ -59,7 +59,7 @@ class LoginViewTest(TestCase):
         self.client.get('/accounts/login?token=abcd123')
         self.assertEqual(
             mock_auth.authenticate.call_args,
-            call(uid='abcd123')
+            call('abcd123')
         )
 
     def test_calls_auth_login_with_user_if_there_is_one(self, mock_auth):
@@ -73,3 +73,8 @@ class LoginViewTest(TestCase):
         mock_auth.authenticate.return_value = None
         self.client.get('/accounts/login?token=abcd123')
         self.assertEqual(mock_auth.login.called, False)
+
+    def test_logout_redirects_to_home_page(self, mock_auth):
+        response = self.client.get('/accounts/logout')
+        self.assertRedirects(response, '/')
+
