@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'lists',
     'accounts',
+    'FT',
 ]
 AUTH_USER_MODEL = 'accounts.User'
 AUTHENTICATION_BACKENDS = [
